@@ -1,4 +1,4 @@
-name: Build OpenWrt For RM2100
+name: Build OpenWrt For RM2100 oswifi
 
 on:
   repository_dispatch:
@@ -8,10 +8,10 @@ env:
   REPO_URL: https://github.com/Luastonsu/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: BuildRM2100.config
+  CONFIG_FILE: RM2100WiFi.config
   DIY_P1_SH: custom.sh
   DIY_P2_SH: nothing.sh
-  UPLOAD_BIN_DIR: true
+  UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
