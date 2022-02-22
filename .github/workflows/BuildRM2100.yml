@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/Luastonsu/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/Luastonsu/immortalwrt
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: RM2100.config
   DIY_P1_SH: custom.sh
